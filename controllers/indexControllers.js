@@ -1,7 +1,7 @@
 const hisaabModel = require("../models/hisaab-model");
 
 const userModel = require("../models/user-model");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
 module.exports.landingPageControllers = function (req, res) {
